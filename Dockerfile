@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y \
 
 # Install Python packages using pip
 RUN pip install --no-cache-dir \
-    torch torchvision veriloggen numpy onnx nngen np
+    veriloggen numpy onnx nngen np
 
 # Copy files from the host machine into the container
 COPY ./ls4ai.ipynb /home/jovyan/work/
@@ -30,6 +30,3 @@ EXPOSE 8888
 
 # Start Jupyter Notebook
 CMD ["start-notebook.sh"]
-
-
-ENTRYPOINT ["top", "-b"]
