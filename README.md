@@ -49,7 +49,7 @@ docker run -p 8888:8888 -v $(pwd):/home/jovyan/work ls4ai
 
 ## Usage
 
-Open your web browser and navigate to `[http://localhost:8888](http://localhost:8888)`. You should see the Jupyter interface where you can open and run the `ls4ai.ipynb` notebook.
+Open your web browser and navigate to [`http://localhost:8888`](http://localhost:8888). You should see the Jupyter interface where you can open and run the `ls4ai.ipynb` notebook.
 
 ## Additional Resources
 
