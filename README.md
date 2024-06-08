@@ -1,6 +1,6 @@
 # Hack4Her: Logic Synthesis for AI
 
-This repo contains hands-on material for the "Logic Synthesis for AI" tutorial session at Hack4Her 2024.
+This repo contains hands-on material for the "Logic Synthesis for AI" tutorial session at [Hack4Her 2024](https://hack4her.github.io/).
 
 ## Setup
 
