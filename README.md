@@ -2,7 +2,7 @@
 
 This repo contains hands-on material for the "Logic Synthesis for AI" tutorial session at [Hack4Her](https://hack4her.org/).
 
-## Setup
+## 🛠️ Setup
 
 Clone this repository:
 
@@ -10,24 +10,9 @@ Clone this repository:
 git clone https://github.com/marcelwa/ls4ai.git
 ```
 
-### Option 1: Run Locally
+### 🐳 Option 1: Run Inside a Docker Container (recommended)
 
-Download the Jupyter notebook `ls4ai.ipynb` and run it locally on your preferred platform.
-
-1. Install Python and Jupyter Notebook using Anaconda, Homebrew, pip, or the package manager of your choice.
-2. Open Command Prompt, PowerShell, or Terminal.
-3. Navigate to the directory where `ls4ai.ipynb` is located.
-4. Start Jupyter Notebook:
-   ```sh
-   jupyter notebook
-   ```
-
-*Note: Verilog simulation/validation might only work under Linux.*
-
-
-### Option 2: Run Inside a Docker Container (preferred)
-
-#### Setup Docker Desktop
+#### Set up Docker Desktop
 
 Follow the installation instructions for your operating system:
 - [Windows](https://docs.docker.com/desktop/install/windows-install/)
@@ -47,11 +32,35 @@ docker build -t ls4ai .
 docker run -p 8888:8888 -v $(pwd):/home/jovyan/work ls4ai
 ```
 
-## Usage
+### 💻 Option 2: Run Locally
+
+Download the Jupyter notebook `ls4ai.ipynb` and run it locally on your preferred platform.
+
+1. Install Python and Jupyter Notebook using Anaconda, Homebrew, pip, or the package manager of your choice.
+2. Open Command Prompt, PowerShell, or Terminal.
+3. Navigate to the directory where `ls4ai.ipynb` is located.
+4. Start Jupyter Notebook:
+   ```sh
+   jupyter notebook
+   ```
+
+*⚠️ Note: When run locally, Verilog simulation/validation might only work under Linux.*
+
+## 🚀 Usage
 
 Open your web browser and navigate to [`http://localhost:8888`](http://localhost:8888). You should see the Jupyter interface where you can open and run the `ls4ai.ipynb` notebook.
 
-## Additional Resources
+If you are prompted for a token, check the terminal output where you started the Docker container. You are looking for something like this:
+```
+ To access the server, open this file in a browser:
+        file:///home/jovyan/.local/share/jupyter/runtime/jpserver-7-open.html
+    Or copy and paste one of these URLs:
+        http://<hostname_or_ip>:8888/lab?token=<YOUR_TOKEN_HERE>
+        http://127.0.0.1:8888/lab?token=<YOUR_TOKEN_HERE>
+```
+Either copy the token from the URL to paste it into the prompt, or simply follow the link to open the Jupyter Notebook interface.
+
+## 📚 Additional Resources
 
 To help you get started and make the most out of this project, here are some useful resources:
 
@@ -62,6 +71,6 @@ To help you get started and make the most out of this project, here are some use
 - [Verilator](https://www.veripool.org/verilator/): A fast Verilog simulator that is used in this tutorial to validate the generated Verilog code.
 - [Verilog to Routing](https://verilogtorouting.org/): A tool for converting Verilog to FPGA design files. It is not used in this tutorial, but would be a logical next step after synthesis. This pointer is included for those interested in further exploring FPGA design workflows.
 
-## Contact
+## 📧 Contact
 
 If you have any questions or feedback, please reach out via email.
