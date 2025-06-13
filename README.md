@@ -78,7 +78,7 @@ To help you get started and make the most out of this project, here are some use
 - [NNgen](https://github.com/NNgen/nngen): The tool for neural network synthesis used in this tutorial. You can find further information about its features in the repo's README.
 - [Veriloggen](https://github.com/PyHDI/veriloggen): A Python package for generating synthesizable Verilog code, which is used in this tutorial.
 - [Verilator](https://www.veripool.org/verilator/): A fast Verilog simulator that is used in this tutorial to validate the generated Verilog code.
-- [Verilog to Routing](https://verilogtorouting.org/): A tool for converting Verilog to FPGA design files. It is not used in this tutorial, but would be a logical next step after synthesis. This pointer is included for those interested in further exploring FPGA design workflows.
+- [Verilog to Routing (VTR)](https://verilogtorouting.org/): A CAD flow for converting Verilog to FPGA bitstreams. It represents a logical next step after synthesis for targeting FPGAs (especially academic ones) but is not used directly in this tutorial. This pointer is included for those interested in further exploring FPGA design workflows.
 
 ## 📧 Contact
 
