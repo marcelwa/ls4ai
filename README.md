@@ -48,6 +48,8 @@ Download the Jupyter notebook `ls4ai.ipynb` and run it locally on your preferred
 
 ## 🚀 Usage
 
+### 📓 Accessing the Jupyter Notebook
+
 Open your web browser and navigate to [`http://localhost:8888`](http://localhost:8888). You should see the Jupyter interface where you can open and run the `ls4ai.ipynb` notebook.
 
 If you are prompted for a token, check the terminal output where you started the Docker container. You are looking for something like this:
@@ -59,6 +61,13 @@ If you are prompted for a token, check the terminal output where you started the
         http://127.0.0.1:8888/lab?token=<YOUR_TOKEN_HERE>
 ```
 Either copy the token from the URL to paste it into the prompt, or simply follow the link to open the Jupyter Notebook interface.
+
+### ▶️ Running the Tutorial
+
+Open the `ls4ai.ipynb` notebook in Jupyter and follow the instructions in the notebook to run the tutorial. The notebook contains code cells that you can execute step by step, along with explanations and comments.
+It demonstrates how to use the NNgen tool to synthesize a neural network, generate Verilog code, and simulate it using Verilator. Furthermore, it contains 
+
+*⚠️ Note: The code snippet `(Alternative) Import an Existing Model on a DNN Framework via ONNX` is intended as a pointer for your self-study after the tutorial. It is not executable by default because you would have to modify the subsequent code to match the imported model!*
 
 ## 📚 Additional Resources
 
