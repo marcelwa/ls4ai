@@ -1,6 +1,6 @@
 # Hack4Her: Logic Synthesis for AI
 
-This repo contains hands-on material for the "Logic Synthesis for AI" tutorial session at [Hack4Her 2024](https://hack4her.github.io/).
+This repo contains hands-on material for the "Logic Synthesis for AI" tutorial session at [Hack4Her](https://hack4her.org/).
 
 ## Setup
 
@@ -25,7 +25,7 @@ Download the Jupyter notebook `ls4ai.ipynb` and run it locally on your preferred
 *Note: Verilog simulation/validation might only work under Linux.*
 
 
-### Option 2: Run Inside a Docker Container
+### Option 2: Run Inside a Docker Container (preferred)
 
 #### Setup Docker Desktop
 
@@ -57,7 +57,10 @@ To help you get started and make the most out of this project, here are some use
 
 - [Docker Official Documentation](https://docs.docker.com/get-started/): Comprehensive guide to getting started with Docker, including installation, building images, and managing containers.
 - [Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/en/stable/): Official documentation for Jupyter Notebook, including installation instructions, tutorials, and usage guides.
-
+- [NNgen](https://github.com/NNgen/nngen): The tool for neural network synthesis used in this tutorial. You can find further information about its features in the repo's README.
+- [Veriloggen](https://github.com/PyHDI/veriloggen): A Python package for generating synthesizable Verilog code, which is used in this tutorial.
+- [Verilator](https://www.veripool.org/verilator/): A fast Verilog simulator that is used in this tutorial to validate the generated Verilog code.
+- [Verilog to Routing](https://verilogtorouting.org/): A tool for converting Verilog to FPGA design files. It is not used in this tutorial, but would be a logical next step after synthesis. This pointer is included for those interested in further exploring FPGA design workflows.
 
 ## Contact
 
